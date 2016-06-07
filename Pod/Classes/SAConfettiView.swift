@@ -17,6 +17,7 @@ public class SAConfettiView: UIView {
         case Star
         case Diamond
         case Image(UIImage)
+        case Umlaut
     }
 
     var emitter: CAEmitterLayer!
@@ -81,6 +82,8 @@ public class SAConfettiView: UIView {
             fileName = "star"
         case .Diamond:
             fileName = "diamond"
+        case .Umlaut:
+            fileName = "umlaut"
         case let .Image(customImage):
             return customImage
         }
