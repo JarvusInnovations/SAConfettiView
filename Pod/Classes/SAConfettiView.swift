@@ -43,7 +43,7 @@ public class SAConfettiView: UIView {
             UIColor(red:0.30, green:0.76, blue:0.85, alpha:1.0),
             UIColor(red:0.58, green:0.39, blue:0.55, alpha:1.0)]
         intensity = 0.5
-        type = .Confetti
+        type = .Umlaut
         active = false
     }
 
